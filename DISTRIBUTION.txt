@@ -1,0 +1,18 @@
+# Specification Core v0.9.35 Distribution Package
+# Ready to deploy to WordPress
+
+This archive contains:
+- Complete Specification Core plugin v0.9.35
+- SEOPress Social metabox spacing fixes
+- All required modules and assets
+- Documentation files
+
+To install:
+1. Extract this ZIP in WordPress plugins directory
+2. Activate from WordPress admin panel
+3. Configure in Specification Core settings menu
+
+Version: 0.9.35
+Release Date: 2026-06-10
+Author: Yunvonks
+License: GPL-2.0-or-later
