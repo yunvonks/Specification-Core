@@ -1,0 +1,109 @@
+/**
+ * Specification Core v0.9.35
+ * SEOPress Social Metabox Spacing Fix
+ * Improves UI spacing for Social Title, Social Description, and Social Image URL
+ */
+
+/* Social Metabox Container */
+.seopress-social-metabox {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+/* Social Title Field */
+.seopress-social-title-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 8px;
+}
+
+.seopress-social-title-wrapper label {
+  font-weight: 600;
+  font-size: 14px;
+  margin-bottom: 0;
+  display: block;
+}
+
+.seopress-social-title-wrapper input {
+  padding: 10px 12px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+/* Social Description Field */
+.seopress-social-description-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 8px;
+}
+
+.seopress-social-description-wrapper label {
+  font-weight: 600;
+  font-size: 14px;
+  margin-bottom: 0;
+  display: block;
+}
+
+.seopress-social-description-wrapper textarea {
+  padding: 10px 12px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 14px;
+  min-height: 100px;
+  font-family: inherit;
+}
+
+/* Social Image URL Field */
+.seopress-social-image-url-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.seopress-social-image-url-wrapper label {
+  font-weight: 600;
+  font-size: 14px;
+  margin-bottom: 0;
+  display: block;
+}
+
+.seopress-social-image-url-wrapper input {
+  padding: 10px 12px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+/* Ensure proper spacing between all form groups */
+.seopress-social-metabox > div {
+  margin-bottom: 16px;
+}
+
+.seopress-social-metabox > div:last-child {
+  margin-bottom: 0;
+}
+
+/* Open Graph and Twitter/X Tabs spacing */
+.seopress-social-tabs {
+  margin-bottom: 16px;
+}
+
+.seopress-social-tabs button {
+  margin-right: 8px;
+  padding: 10px 16px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background: #f5f5f5;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.seopress-social-tabs button:hover,
+.seopress-social-tabs button.active {
+  background: #fff;
+  border-color: #999;
+}
