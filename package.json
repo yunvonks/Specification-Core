@@ -1,0 +1,22 @@
+{
+  "name": "specification-core",
+  "version": "0.9.35",
+  "description": "Specification Core v0.9.35 - Modular mobile database system for WordPress with SEOPress integration",
+  "main": "specification-core.php",
+  "author": "Yunvonks",
+  "license": "GPL-2.0-or-later",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yunvonks/Specification-Core"
+  },
+  "keywords": [
+    "wordpress",
+    "plugin",
+    "seopress",
+    "mobile",
+    "database",
+    "specifications"
+  ],
+  "requires_php": "7.4",
+  "requires_wp": "5.0"
+}
